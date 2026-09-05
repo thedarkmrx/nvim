@@ -43,7 +43,7 @@ require("lazy").setup({
 	{
 		"lewis6991/gitsigns.nvim",
 		dependencies = { "nvim-lua/plenary.nvim" },
-		config = function ()
+		config = function()
 			require("plugins.gitsigns")
 		end,
 	},
@@ -127,7 +127,8 @@ require("lazy").setup({
 	},
 	{
 		"nvim-telescope/telescope.nvim",
-		tag = "0.1.8",
+		-- tag = "0.1.8",
+		branch = "master",
 		dependencies = { "nvim-lua/plenary.nvim" },
 		config = function()
 			require("plugins.telescope")
@@ -242,8 +243,8 @@ require("lazy").setup({
 		"xiyaowong/transparent.nvim",
 	},
 	{
-  		"oxidescheme/nvim",
-  		lazy = false,
-  		priority = 1000,
+		"oxidescheme/nvim",
+		lazy = false,
+		priority = 1000,
 	},
 })
