@@ -1,2 +1,3 @@
 after/plugin/vim-dadbod-config.lua
 undo/
+lazy-lock.json
