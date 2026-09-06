@@ -14,9 +14,9 @@ map("n", "<leader>e", ":NvimTreeToggle<CR>")
 map("n", "<leader><S-e>", ":NvimTreeFocus<CR>")
 
 -- splits
-map("n", "<leader>hs", ":split<CR>", { desc = "Split Window Below", remap = true })
-map("n", "<leader>vs", ":vs<CR>", { desc = "Split Window Right", remap = true })
-map("n", "<leader>xs", ":only<CR>", { desc = "Close Current Split", remap = true })
+map("n", "<leader>sh", ":split<CR>", { desc = "Split Window Below", remap = true })
+map("n", "<leader>sv", ":vs<CR>", { desc = "Split Window Right", remap = true })
+map("n", "<leader>sx", ":only<CR>", { desc = "Close Current Split", remap = true })
 
 -- move to splits using the <ctrl> hjkl keys
 map("n", "<C-h>", "<C-w>h", { desc = "Go to Left Window", remap = true })
